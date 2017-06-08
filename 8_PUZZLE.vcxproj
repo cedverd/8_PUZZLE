@@ -110,10 +110,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="EmptyBlock.h" />
     <ClInclude Include="Main.h" />
+    <ClInclude Include="Manhatan.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="EmptyBlock.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Manhatan.cpp" />
+    <ClCompile Include="Puzzle.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
